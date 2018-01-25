@@ -1,0 +1,4 @@
+_str = "This is a string" #a sentence or words in quotes
+_bool = True #false
+_int = 1
+_float = 1.0

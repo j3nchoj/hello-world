@@ -1,4 +1,9 @@
+#Data Types
 _str = "This is a string" #a sentence or words in quotes
+_str_2 = 'this is a str'
+
 _bool = True #false
 _int = 1
 _float = 1.0
+
+#Control Types

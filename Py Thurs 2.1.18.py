@@ -30,6 +30,9 @@ _list = ['Alex', 'Grande', 'Sarah', 'Jen', 'Laura', 'Justin', 'Danielle']
 
 _list2 = list()
 
+"""
+Practice: print each letter in a given string
+"""
 # for {variable_name} in <collection>:
 #   <action>
 # Used for lists (Ex: counts = [1,2,3,4,5]
@@ -37,3 +40,31 @@ _list2 = list()
 name = 'name'
 for character in name:
     print(character)
+
+"""
+Practice: create a function that takes an input,
+then prints each character of the input
+"""
+
+
+# DEF is key word to define and remember
+def print_charcater(input):
+    for charcater in input:
+        print(charcater)
+
+
+print_charcater('purple')
+
+"""
+practice: create a function that takes two inputs,
+then prints True/False whether or not the first input
+is contained within the second input
+"""
+
+
+# == compares
+def search_character(search, find):
+    for character in find:
+        if character == search:
+            print(True)
+            search_character('a', 'apple')

@@ -47,3 +47,23 @@ def one_good_turn(n):
 
 def deserves_another(n):
     return one_good_turn(n) + 2
+
+
+###Practice function in function
+def cube(number):
+    return number * number * number
+
+
+def by_three(number):
+    if number % 3 == 0:
+        return cube(number)
+    else:
+        return False
+
+
+##Generic Imports
+##Python Module named Math, includes useful functions if you have the correct import keyword
+# Ask Python to print sqrt(25) on line 3.
+import math
+
+print math.sqrt(25)

@@ -67,4 +67,54 @@ def by_three(number):
 import math
 
 print math.sqrt(25)
-# changes
+# changes 2.6.18
+
+# Import *everything* from the math module on line 3!
+
+import math  # Imports the math module
+
+everything = dir(math)  # Sets everything to a list of things from math
+print everything  # Prints 'em all!
+
+# takes numbers from a list and returns largest
+maximum = max(1, 5, 8, 108, -2)
+
+print maximum
+
+# smallest in a list
+minimum = min(-55, 0, 5, 3, 17)
+
+print minimum
+
+# The abs() function returns the absolute value of the number
+# number's distance from 0 on an imagined number line.
+absolute = abs(-42)
+
+print absolute
+
+# returns the type of data
+print type(42)
+print type(0.12)
+print type('learned')
+
+
+# TEST
+def shut_down(s):
+    if s == "yes":
+        return "Shutting down"
+    elif s == "no":
+        return "Shutdown aborted"
+    else:
+        return "Sorry"
+
+
+##Example
+
+num = 12
+
+
+def distance_from_zero(num):
+    if type(num) == int or type(num) == float:
+        return abs(num)
+    else:
+        return "Nope"

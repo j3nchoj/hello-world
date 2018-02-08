@@ -75,11 +75,10 @@ def search_string(search_value, input_string):
 
 # implement function here
 
-text_value = 'some input'
-
+text_value = 'some input'  # we're searching this string, can change 'some input'
 
 def search_string(search, text_input):
-    result = False
+    result = False  #assuming its False. If delete for loop, everything is False in result
     for character in text_input:
         if character == search:
             result = True
@@ -89,3 +88,4 @@ def search_string(search, text_input):
 search_string('a', text_value)  # false
 search_string('s', text_value)  # true
 search_string('S', text_value)  # false
+search_string('T', text_value)  # false
